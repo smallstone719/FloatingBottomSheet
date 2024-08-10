@@ -11,6 +11,7 @@
 		3D2F847E2C5DD5AD009E4610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F847D2C5DD5AD009E4610 /* ContentView.swift */; };
 		3D2F84802C5DD5AE009E4610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2F847F2C5DD5AE009E4610 /* Assets.xcassets */; };
 		3D2F84832C5DD5AE009E4610 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2F84822C5DD5AE009E4610 /* Preview Assets.xcassets */; };
+		3D2F84902C5DD655009E4610 /* FloatingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F848F2C5DD654009E4610 /* FloatingSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3D2F847D2C5DD5AD009E4610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D2F847F2C5DD5AE009E4610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D2F84822C5DD5AE009E4610 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D2F848F2C5DD654009E4610 /* FloatingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +53,10 @@
 		3D2F847A2C5DD5AD009E4610 /* FloatingBottomSheet */ = {
 			isa = PBXGroup;
 			children = (
-				3D2F847B2C5DD5AD009E4610 /* FloatingBottomSheetApp.swift */,
-				3D2F847D2C5DD5AD009E4610 /* ContentView.swift */,
-				3D2F847F2C5DD5AE009E4610 /* Assets.xcassets */,
+				3D2F848A2C5DD5FC009E4610 /* App */,
+				3D2F848B2C5DD60B009E4610 /* Helpers */,
+				3D2F848C2C5DD61A009E4610 /* Views */,
+				3D2F84892C5DD5EF009E4610 /* Resources */,
 				3D2F84812C5DD5AE009E4610 /* Preview Content */,
 			);
 			path = FloatingBottomSheet;
@@ -65,6 +68,38 @@
 				3D2F84822C5DD5AE009E4610 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D2F84892C5DD5EF009E4610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F847F2C5DD5AE009E4610 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D2F848A2C5DD5FC009E4610 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F847B2C5DD5AD009E4610 /* FloatingBottomSheetApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3D2F848B2C5DD60B009E4610 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F848F2C5DD654009E4610 /* FloatingSheet.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3D2F848C2C5DD61A009E4610 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F847D2C5DD5AD009E4610 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +174,7 @@
 			files = (
 				3D2F847E2C5DD5AD009E4610 /* ContentView.swift in Sources */,
 				3D2F847C2C5DD5AD009E4610 /* FloatingBottomSheetApp.swift in Sources */,
+				3D2F84902C5DD655009E4610 /* FloatingSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
